@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Get unlimited access to everything</h1>
+        <div class="total-billed">
+            <h1>Total billed $50</h1>
+            <p>Enter your credit card details to complete subscription</p>
+        </div>
+        <div class="input-card-number">
+            <label for="card-number">Card number</label>
+            <input id="card-number" type="text" maxlength="16" placeholder="1234 1234 1234 1234">
+        </div>
+        <div class="date-security-code">
+            <div class="exp-date-container">
+                <label for="exp-date">Expiration date</label>
+                <input id="exp-date" type="text" maxlength="5" placeholder="MM/YY">
+            </div>
+            <div class="sec-code-container">
+                <label for="sec-code">Security code</label>
+                <input id="sec-code" type="text" maxlength="3" placeholder="123">
+            </div>
+        </div>
+        <p class="segundo-paragrafo">
+            By subscribing you agree to our Use of Service. Your payment method will be charged with $50  and you’ll have access to all locked features until 20 Jan 2023.
+        </p>
+        <button>Pay Now</button>
+    </div>
+</body>
+</html>
