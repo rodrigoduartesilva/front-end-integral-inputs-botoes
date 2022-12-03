@@ -1,0 +1,98 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    background-image: url(./assets/background.png);
+    background-position: center;
+}
+
+.container {
+    width: 739px;
+    height: 442px;
+    padding: 30px 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.close-icon {
+    width: 31px;
+    height: 31px;
+    margin-left: 620px;
+}
+
+.close-icon:hover{
+    cursor: pointer;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.container p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.input-share-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.input-share-button input {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 79%;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px 35px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.input-share-button button {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 35px;
+    margin-left: 10px;
+    background: #9677EF;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.input-share-button button:hover {
+    background: rgba(150, 119, 239, 0.8);
+    box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sharing-span {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sharing-bottom {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #494949;
+}
+
+.sharing-bottom a {
+    color: #9677EF;
+}
