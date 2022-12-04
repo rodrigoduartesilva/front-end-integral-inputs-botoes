@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+.container {
+    width: 517px;
+    height: 765px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 90px 50px 90px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Neuton', serif;
+}
+
+.container h1 {
+    margin-bottom: 54px;
+
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.sign-up-google-button {
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 55px;
+    width: 337px;
+
+    font-weight: 400;
+    font-size: 18px;
+
+    background: #5B86E6;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.sign-up-google-button:hover {
+    background: hsl(221, 45%, 63%);
+    cursor: pointer;
+}
+
+.sign-up-google-button img {
+    width: 55px;
+    height: 55px;
+    background: #FFFFFF;
+    padding: 12px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.container p {
+    margin-bottom: 39px;
+
+    font-weight: 400;
+    font-size: 14px;
+    color: #949495;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-fields label {
+    margin-bottom: 4px;
+
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.input-fields input {
+    all: unset;
+    box-sizing: border-box;
+    
+    width: 337px;
+    padding: 20px 22px;
+    border: 1px solid #D9DCED;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.input-fields ::placeholder {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #949495;
+}
+
+.get-started-button {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 337px;
+    padding: 20px 123px;
+    background: #E65B7C;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.get-started-button:hover {
+    background: hsl(346, 45%, 63%);
+    cursor: pointer;
+}
+
+span {
+    margin-bottom: 50px;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+span a {
+    color: #5B86E6;
+    text-decoration: none;
+}
